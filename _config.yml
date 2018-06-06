@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Enseñar a programar"
-email: "TBD"
+email: "devscolavlc@gmail.com"
 description: "Un Open Space sobre la didáctica de la programación"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
@@ -40,14 +40,10 @@ permalink: "/blog/:title"
 
 
 # Navigation
-# navigationLinks:
- # - {permalink: "/", text: "Home"}
- # - {permalink: "/blog/", text: "Blog"}
- # - {permalink: "/schedule/", text: "Schedule"}
- # - {permalink: "/speakers/", text: "Speakers"}
- # - {permalink: "/team/", text: "Team"}
- # - {permalink: "/logistics/", text: "Logistics"}
- # - {permalink: "/hackathon/", text: "Hackathon"}
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "#post-section", text: "FAQ"}
+ - {permalink: "#location-map", text: "Localización"}
 # bottomNavigationLinks:
  # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 # rightNavigationButtons:
@@ -87,9 +83,9 @@ rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
-locationBlockTitle: "Location"
+locationBlockTitle: "¿Dónde?"
 eventLocationName: "La masía de los jardineros"
-# eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
+eventLocationLink: "https://goo.gl/maps/QmCVqQJh8Vv"
 eventStreetAddress: "Carrer de Menéndez Pidal, 162"
 eventAddressLocality: "Valencia"
 eventAddressLocalityRegion: "Comunidad valenciana"
@@ -177,19 +173,11 @@ socialLinks:
  # - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  # - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
- # -
-  # title: "Links"
-  # links:
-   # - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   # - {link: "https://developers.google.com", text: "Google Developers"}
- # -
-  # title: "Contacts"
-  # links:
-   # - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
  -
-  title: "FAQ"
+  title: "Links"
   links:
-    - {permalink: "/faq/", text: "Enseñar a programar, el Open Space"}
+   - {link: "https://trello.com/b/2rp758aO", text: "Trello organización"}
+   - {link: "https://t.me/joinchat/AxgL0A-Ve-QO7FbEdn5Rzw", text: "Grupo Telegram"}
 
 # Blog
 blogTitle: "Latest news"
