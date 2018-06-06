@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Enseñar a programar"
+title: "Open Space | Enseñar a programar"
 email: "devscolavlc@gmail.com"
 description: "Un Open Space sobre la didáctica de la programación"
 url: "https://gdg-x.github.io"
@@ -51,9 +51,9 @@ navigationLinks:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Open Space <typeout>"
-eventDate: "16 de Junio, 2018"
-typeoutTextValues: '"Valencia", "enseñar", "aprender", "programar"'
+heroTitle: "Open Space sobre <typeout>"
+eventDate: "Valencia, 16 de Junio 2018"
+typeoutTextValues: '"enseñar", "aprender", "programar"'
 # heroButtons:
  # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  # - {permalink: "/#tickets", text: "Buy tickets"}
