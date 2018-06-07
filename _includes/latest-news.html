@@ -2,15 +2,24 @@
 <section id="latest-news" class="latest-news">
 	<div class="content-wrapper">
 		<div class="col-lg-10 col-lg-offset-1">
-			<h3>{{ site.latestNewsTitle }}</h3>
+			<h3>Sobre el Open Space</h3>
 			<article class="row">
-				{% for post in site.posts limit:2 %}
-                    {% assign postUrl = site.baseurl | append: post.url %} 
 					<div class="post col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
-						<h6>{{ post.title }}</h6>
-						<p class="post-body">{{ post.content | strip_html | truncate: 250 }} <a href="{{ postUrl }}">continue reading</a></p>
+						<h6>¿De qué se va a hablar?</h6>
+						<p class="post-body">
+							tener conversaciones interesantes sobre un tema que te interesa y
+							compartir su experiencia y su desconocimiento con otros como tú
+							que estudian, enseñan, practican, forman, preparan, entrenan…
+						</p>
 					</div>
-                {% endfor %}
+					<div class="post col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+						<h6>¿Qué voy a aprender/compartir?</h6>
+						<p class="post-body">
+							LA PROGRAMACIÓN
+							como alumno, maestro , mentor, guÍa , estudiante, aprendiz, formador, creador de contenidos educativos.…
+							Y lo hacen por karma, dinero, fama, desarrollo personal, gloria, ego, negocio, política, trabajo...
+						</p>
+					</div>
 			</article>
 		</div>
 	</div>
