@@ -54,6 +54,7 @@ heroImage: "hero.jpg"
 heroTitle: "Open Space sobre <typeout>"
 eventDate: "Valencia, 16 de Junio 2018"
 typeoutTextValues: '"enseñar", "aprender", "programar"'
+typeoutFallback: 'enseñar a programar'
 # heroButtons:
  # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  # - {permalink: "/#tickets", text: "Buy tickets"}
