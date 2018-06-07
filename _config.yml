@@ -41,7 +41,8 @@ permalink: "/blog/:title"
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
+ - {permalink: "/#", text: "Home"}
+ - {permalink: "/#latest-news", text: "El evento"}
  - {permalink: "/#post-section", text: "FAQ"}
  - {permalink: "/#location-map", text: "Localización"}
 # bottomNavigationLinks:
