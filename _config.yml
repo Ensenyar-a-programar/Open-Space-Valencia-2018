@@ -42,8 +42,8 @@ permalink: "/blog/:title"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "#post-section", text: "FAQ"}
- - {permalink: "#location-map", text: "Localización"}
+ - {permalink: "/#post-section", text: "FAQ"}
+ - {permalink: "/#location-map", text: "Localización"}
 # bottomNavigationLinks:
  # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 # rightNavigationButtons:
